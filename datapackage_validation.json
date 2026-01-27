@@ -1,0 +1,97 @@
+{
+  "version": "4.16.6",
+  "time": 0.051,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "exames-por-setor",
+        "path": "data/exames-por-setor.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "setor",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "mes",
+              "type": "integer"
+            },
+            {
+              "name": "exames_img",
+              "type": "integer"
+            },
+            {
+              "name": "exame_img_por_paciente",
+              "type": "string"
+            },
+            {
+              "name": "exames_lab",
+              "type": "integer"
+            },
+            {
+              "name": "exame_lab_por_paciente",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "d46e3bf52cd70771bb1ad6b2614a77bc",
+          "bytes": 102607,
+          "fields": 8,
+          "rows": 1541
+        }
+      },
+      "time": 0.041,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 1
+  },
+  "valid": true
+}
